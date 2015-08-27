@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Nikolaev Igor. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "reviewVC.h"
 
-@interface FirstViewController ()
+@interface reviewVC ()
 
 @end
 
-@implementation FirstViewController
+@implementation reviewVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Nikolaev Igor. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "mapVC.h"
 
-@interface SecondViewController ()
+@interface mapVC ()
 
 @end
 
-@implementation SecondViewController
+@implementation mapVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

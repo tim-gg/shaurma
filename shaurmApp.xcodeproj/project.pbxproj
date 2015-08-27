@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		422F5A781B8F26AB005421C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 422F5A771B8F26AB005421C8 /* main.m */; };
 		422F5A7B1B8F26AB005421C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 422F5A7A1B8F26AB005421C8 /* AppDelegate.m */; };
-		422F5A7E1B8F26AB005421C8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422F5A7D1B8F26AB005421C8 /* FirstViewController.m */; };
-		422F5A811B8F26AB005421C8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422F5A801B8F26AB005421C8 /* SecondViewController.m */; };
+		422F5A7E1B8F26AB005421C8 /* reviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422F5A7D1B8F26AB005421C8 /* reviewVC.m */; };
+		422F5A811B8F26AB005421C8 /* mapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422F5A801B8F26AB005421C8 /* mapVC.m */; };
 		422F5A841B8F26AB005421C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422F5A821B8F26AB005421C8 /* Main.storyboard */; };
 		422F5A861B8F26AB005421C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422F5A851B8F26AB005421C8 /* Images.xcassets */; };
 		422F5A891B8F26AB005421C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 422F5A871B8F26AB005421C8 /* LaunchScreen.xib */; };
 		422F5A951B8F26AB005421C8 /* shaurmAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 422F5A941B8F26AB005421C8 /* shaurmAppTests.m */; };
+		422F5AA01B8F297E005421C8 /* addSpotVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422F5A9F1B8F297E005421C8 /* addSpotVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +34,18 @@
 		422F5A771B8F26AB005421C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		422F5A791B8F26AB005421C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		422F5A7A1B8F26AB005421C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		422F5A7C1B8F26AB005421C8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		422F5A7D1B8F26AB005421C8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		422F5A7F1B8F26AB005421C8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		422F5A801B8F26AB005421C8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		422F5A7C1B8F26AB005421C8 /* reviewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reviewVC.h; sourceTree = "<group>"; };
+		422F5A7D1B8F26AB005421C8 /* reviewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reviewVC.m; sourceTree = "<group>"; };
+		422F5A7F1B8F26AB005421C8 /* mapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mapVC.h; sourceTree = "<group>"; };
+		422F5A801B8F26AB005421C8 /* mapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mapVC.m; sourceTree = "<group>"; };
 		422F5A831B8F26AB005421C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		422F5A851B8F26AB005421C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		422F5A881B8F26AB005421C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		422F5A8E1B8F26AB005421C8 /* shaurmAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shaurmAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		422F5A931B8F26AB005421C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		422F5A941B8F26AB005421C8 /* shaurmAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shaurmAppTests.m; sourceTree = "<group>"; };
+		422F5A9E1B8F297E005421C8 /* addSpotVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addSpotVC.h; sourceTree = "<group>"; };
+		422F5A9F1B8F297E005421C8 /* addSpotVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addSpotVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +89,12 @@
 			children = (
 				422F5A791B8F26AB005421C8 /* AppDelegate.h */,
 				422F5A7A1B8F26AB005421C8 /* AppDelegate.m */,
-				422F5A7C1B8F26AB005421C8 /* FirstViewController.h */,
-				422F5A7D1B8F26AB005421C8 /* FirstViewController.m */,
-				422F5A7F1B8F26AB005421C8 /* SecondViewController.h */,
-				422F5A801B8F26AB005421C8 /* SecondViewController.m */,
+				422F5A7C1B8F26AB005421C8 /* reviewVC.h */,
+				422F5A7D1B8F26AB005421C8 /* reviewVC.m */,
+				422F5A9E1B8F297E005421C8 /* addSpotVC.h */,
+				422F5A9F1B8F297E005421C8 /* addSpotVC.m */,
+				422F5A7F1B8F26AB005421C8 /* mapVC.h */,
+				422F5A801B8F26AB005421C8 /* mapVC.m */,
 				422F5A821B8F26AB005421C8 /* Main.storyboard */,
 				422F5A851B8F26AB005421C8 /* Images.xcassets */,
 				422F5A871B8F26AB005421C8 /* LaunchScreen.xib */,
@@ -224,9 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				422F5A811B8F26AB005421C8 /* SecondViewController.m in Sources */,
+				422F5A811B8F26AB005421C8 /* mapVC.m in Sources */,
+				422F5AA01B8F297E005421C8 /* addSpotVC.m in Sources */,
 				422F5A7B1B8F26AB005421C8 /* AppDelegate.m in Sources */,
-				422F5A7E1B8F26AB005421C8 /* FirstViewController.m in Sources */,
+				422F5A7E1B8F26AB005421C8 /* reviewVC.m in Sources */,
 				422F5A781B8F26AB005421C8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

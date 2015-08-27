@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  FirstViewController.h
 //  shaurmApp
 //
 //  Created by Igor Nikolaev on 27/08/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface reviewVC : UIViewController
 
 
 @end
